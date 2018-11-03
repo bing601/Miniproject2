@@ -67,6 +67,7 @@
         <div class="flex-center position-ref full-height">
             <div class="top-right links">
                 <a href="{{url('/contact')}}">Contact</a>
+                <a href="{{url('/about')}}">About</a>
                 @if (Route::has('login'))
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
